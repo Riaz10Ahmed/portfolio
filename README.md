@@ -1,2 +1,2 @@
-# riaz
+# Riaz
 Personal portfolio website
