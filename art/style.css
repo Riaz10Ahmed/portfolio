@@ -1,0 +1,41 @@
+/* ============ PLACE YOUR CUSTOM CSS HERE ============ */
+
+@font-face {
+    font-family: 'Cartis';
+    src: url('./fonts/Cartis\ Beautyful\ serif.ttf') format(truetype);
+}
+
+.c_logo {
+    width: 25px !important;
+}
+
+.c_slide_div {
+    position: absolute;
+    width: 100%;
+    bottom: 25%;
+    text-align: center;
+}
+
+.c_slide_div h2 {
+    font-family: 'Cartis', sans-serif;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.c_slide_div p {
+    font-family: 'Poppins', serif;
+    font-size: 8px;
+    margin: 0px auto;
+    width: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+    .c_logo {
+        width: 40px !important;
+    }
+
+    .bg_contain {
+        background-size: contain !important;
+        background-color: #000000 !important;
+    }
+}
