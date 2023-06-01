@@ -17,16 +17,21 @@
 }
 
 .c_slide_div h2 {
-    font-family: 'Cartis', sans-serif;
+    font-family: 'Cartis', serif;
     margin: 0px;
     font-size: 30px;
 }
 
 .c_slide_div p {
-    font-family: 'Poppins', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 8px;
     margin: 0px auto;
     width: 80%;
+}
+
+.portfolio_img_caption{
+    font-family: 'Cartis', serif;
+    color: #000000;
 }
 
 @media only screen and (min-width: 768px) {
