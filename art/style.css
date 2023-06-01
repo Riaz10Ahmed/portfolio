@@ -5,6 +5,11 @@
     src: url('./fonts/Cartis\ Beautyful\ serif.ttf') format(truetype);
 }
 
+@font-face {
+    font-family: 'Cartis Script';
+    src: url('./fonts/Cartis\ Beautyful\ Script.otf') format(truetype);
+}
+
 .c_logo {
     width: 35px !important;
 }
@@ -30,7 +35,7 @@
 }
 
 .portfolio_img_caption{
-    font-family: 'Cartis', serif;
+    font-family: 'Cartis Script', serif;
     color: #000000;
 }
 
